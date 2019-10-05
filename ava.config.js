@@ -1,5 +1,6 @@
 export default {
-  require: ['./test/helpers/register.js', './test/helpers/setup.js'],
+  require: ['./test/_setup.js'],
   sources: ['**/*.{js,vue}'],
-  snapshotDir: './test/snapshot',
+  tap: true,
+  verbose: true,
 };
